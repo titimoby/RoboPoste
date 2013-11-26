@@ -1,0 +1,11 @@
+<decorators defaultdir="/WEB-INF/layouts">
+    <excludes>
+        <pattern>*img</pattern>
+        <pattern>*js</pattern>
+        <pattern>*css</pattern>
+        <pattern>*svc*</pattern>
+    </excludes>
+    <decorator name="master" page="mainLayout.jsp">
+        <pattern>*</pattern>
+    </decorator>
+</decorators>
